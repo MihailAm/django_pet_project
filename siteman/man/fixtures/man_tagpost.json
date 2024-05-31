@@ -1,0 +1,26 @@
+[
+  {
+    "model": "man.tagpost",
+    "pk": 1,
+    "fields": {
+      "tag": "Худые",
+      "slug": "xydia"
+    }
+  },
+  {
+    "model": "man.tagpost",
+    "pk": 2,
+    "fields": {
+      "tag": "Высокие",
+      "slug": "visokie"
+    }
+  },
+  {
+    "model": "man.tagpost",
+    "pk": 3,
+    "fields": {
+      "tag": "Лысые",
+      "slug": "lisie"
+    }
+  }
+]

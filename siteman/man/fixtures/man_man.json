@@ -1,0 +1,70 @@
+[
+  {
+    "model": "man.man",
+    "pk": 1,
+    "fields": {
+      "title": "Месси",
+      "slug": "messi",
+      "photo": "photo/2024/05/30/месси.jpg",
+      "content": "Биография Месси",
+      "time_create": "2024-05-30T12:00:46.880Z",
+      "time_update": "2024-05-30T12:00:46.880Z",
+      "is_published": true,
+      "cat": 2,
+      "wife": null,
+      "author": null,
+      "tags": []
+    }
+  },
+  {
+    "model": "man.man",
+    "pk": 2,
+    "fields": {
+      "title": "Григорий Лепс",
+      "slug": "grigorii-leps",
+      "photo": "photo/2024/05/30/Лепс.jpg",
+      "content": "Биография Григория Лепса",
+      "time_create": "2024-05-30T12:02:00.975Z",
+      "time_update": "2024-05-30T12:02:00.975Z",
+      "is_published": true,
+      "cat": 3,
+      "wife": null,
+      "author": null,
+      "tags": []
+    }
+  },
+  {
+    "model": "man.man",
+    "pk": 3,
+    "fields": {
+      "title": "Леонардо Ди Каприо",
+      "slug": "leonardo-di-kaprio",
+      "photo": "photo/2024/05/30/Леонардо_ДиКаприо.jpg",
+      "content": "Биография Леонардо Ди Каприо",
+      "time_create": "2024-05-30T12:02:32.187Z",
+      "time_update": "2024-05-30T12:06:21.194Z",
+      "is_published": true,
+      "cat": 1,
+      "wife": null,
+      "author": null,
+      "tags": []
+    }
+  },
+  {
+    "model": "man.man",
+    "pk": 4,
+    "fields": {
+      "title": "Тьерри Анри",
+      "slug": "terri-anri",
+      "photo": "photo/2024/05/30/анри.jpg",
+      "content": "Биография Тьерри Анри",
+      "time_create": "2024-05-30T12:05:52.664Z",
+      "time_update": "2024-05-30T12:05:52.664Z",
+      "is_published": true,
+      "cat": 2,
+      "wife": null,
+      "author": null,
+      "tags": []
+    }
+  }
+]

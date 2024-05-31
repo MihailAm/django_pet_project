@@ -1,0 +1,1 @@
+[{"model": "man.wife", "pk": 2, "fields": {"name": "Анджелина Джоли", "age": 45, "m_count": 0}}, {"model": "man.wife", "pk": 3, "fields": {"name": "Екатерина Варнава", "age": 47, "m_count": 0}}]

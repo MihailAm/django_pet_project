@@ -1,0 +1,26 @@
+[
+  {
+    "model": "man.category",
+    "pk": 1,
+    "fields": {
+      "name": "Актеры",
+      "slug": "acters"
+    }
+  },
+  {
+    "model": "man.category",
+    "pk": 2,
+    "fields": {
+      "name": "Спортсмены",
+      "slug": "sportsmen"
+    }
+  },
+  {
+    "model": "man.category",
+    "pk": 3,
+    "fields": {
+      "name": "Певцы",
+      "slug": "pevci"
+    }
+  }
+]
