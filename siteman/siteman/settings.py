@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-9e!fg)790aac9+8ik&&zr6&r9%aq*)jc5ymg4&*b!quya%i$&@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 INTERNAL_IPS = ["127.0.0.1"]
 
 # Application definition
@@ -97,16 +97,37 @@ DATABASES = {
         'NAME': 'siteman_db',
         'USER': 'siteman',
         'PASSWORD': '1234',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': 5432,
     }
 }
+#
+# CACHES = {
+#     "default": {
+#         "BACKEND": "django.core.cache.backends.redis.RedisCache",
+#         # "BACKEND": "django.core.cache.backends.dummy.DummyCache",
+#         "LOCATION": "redis://127.0.0.1:6379",
+#     }
+# }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': os.getenv('DB_NAME'),
+#         'USER': os.getenv('DB_USER'),
+#         'PASSWORD': os.getenv('DB_PASSWORD'),
+#         'HOST': os.getenv(''),
+#         'PORT': '5432',
+#     }
+# }
 
 CACHES = {
-    "default": {
-        # "BACKEND": "django.core.cache.backends.redis.RedisCache",
-        "BACKEND": "django.core.cache.backends.dummy.DummyCache",
-        # "LOCATION": "redis://127.0.0.1:6379",
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': f"redis://{os.getenv('REDIS_HOST')}:6379/1",
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+        }
     }
 }
 
