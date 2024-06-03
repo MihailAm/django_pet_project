@@ -48,8 +48,10 @@ p.link-read-post a {
 
 div.article-panel {
 	background: #f8f9fa;
-	padding: 10px;
-	color: #555;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #555;
 }
 div.article-panel p.first {
 	margin: 0;
